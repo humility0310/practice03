@@ -3,7 +3,7 @@ package prob3;
 public class CurrencyConverter {
 	static int rate;
 	
-	static void toDollar(){
+	public static void setRate(double rate){
 		return null;
 	}
 }
