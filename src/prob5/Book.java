@@ -47,6 +47,7 @@ public class Book {
 	public void rent() {
 		if (this.stateCode == 0) {
 			this.stateCode = 1;
+			System.out.println(this.title+"이(가) 대여 됐습니다.");
 		} else {
 			this.stateCode = 0;
 		}
